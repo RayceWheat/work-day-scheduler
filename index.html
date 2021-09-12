@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+  
+<div class="container">
+    <!-- 9am time block -->
+      <div class="time-block">
+        <div class="row hour">
+            <div class="col-1">
+              <p>9am</p>
+            </div>
+            <div class="col-10" id="nine">
+            </div>
+            <div class="col-1 saveBtn">
+              <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+              </svg></button>
+            </div>
+        </div>
+      </div>
+    <!-- 9am time block end -->
+    <!-- 10am time block start -->
+    <div class="time-block">
+      <div class="hour row">
+          <div class="col-1">
+            <p>10am</p>
+          </div>
+          <div class="col-10" id="ten">
+          </div>
+          <div class="col-1 saveBtn">
+            <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+            </svg></button>
+          </div>
+      </div>
+    </div>
+    <!-- 10am time block end -->
+    <!-- 11am time block start -->
+        <div class="time-block">
+          <div class="hour row">
+              <div class="col-1">
+                <p>11am</p>
+              </div>
+              <div class="col-10" id="eleven">
+                <p></p>
+              </div>
+              <div class="col-1 saveBtn">
+                <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg></button>
+              </div>
+          </div>
+        </div>
+    <!-- 11am time block end -->
+    <!-- 12pm time block start -->
+        <div class="time-block">
+          <div class="hour row">
+              <div class="col-1">
+                <p>12pm</p>
+              </div>
+              <div class="col-10" id="tweleve">
+                <p></p>
+              </div>
+              <div class="col-1 saveBtn">
+                <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg></button>
+              </div>
+          </div>
+        </div>
+    <!-- 12pm time block end -->
+    <!-- 1pm time block start -->
+    <div class="time-block">
+      <div class="hour row">
+          <div class="col-1">
+            <p>1pm</p>
+          </div>
+          <div class="col-10" id="one">
+            <p></p>
+          </div>
+          <div class="col-1 saveBtn">
+            <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+            </svg></button>
+          </div>
+      </div>
+    </div>
+    <!-- 1pm time block end -->
+    <!-- 2pm time block start -->
+        <div class="time-block">
+          <div class="hour row">
+              <div class="col-1">
+                <p>2pm</p>
+              </div>
+              <div class="col-10" id="two">
+                <p></p>
+              </div>
+              <div class="col-1 saveBtn">
+                <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg></button>
+              </div>
+          </div>
+        </div>
+    <!-- 2pm time block end -->
+    <!-- 3pm time block start -->
+    <div class="time-block">
+      <div class="hour row">
+          <div class="col-1">
+            <p>3pm</p>
+          </div>
+          <div class="col-10" id="three">
+            <p></p>
+          </div>
+          <div class="col-1 saveBtn">
+            <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+            </svg></button>
+          </div>
+      </div>
+    </div>
+    <!-- 3pm time block end -->
+    <!-- 4pm time block start -->
+        <div class="time-block">
+          <div class="hour row">
+              <div class="col-1">
+                <p>4pm</p>
+              </div>
+              <div class="col-10" id="four">
+                <p></p>
+              </div>
+              <div class="col-1 saveBtn">
+                <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg></button>
+              </div>
+          </div>
+        </div>
+    <!-- 4pm time block end -->
+    <!-- 5pm time block start -->
+        <div class="time-block">
+          <div class="hour row">
+              <div class="col-1">
+                <p>5pm</p>
+              </div>
+              <div class="col-10" id="five">
+                <p></p>
+              </div>
+              <div class="col-1 saveBtn">
+                <button type=button class="save-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg></button>
+              </div>
+          </div>
+        </div>
+    <!-- 5pm time block end -->
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
+</html>
