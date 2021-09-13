@@ -9,11 +9,11 @@ CSS
 Javascript 
 
 ## Website
-
+https://raycewheat.github.io/work-day-scheduler/
 
 ## How the website should look 
-![website](https://github.com/RayceWheat/code-quiz/blob/main/assets/images/code-quiz-website-picture.png)
+![website](https://raw.githubusercontent.com/RayceWheat/work-day-scheduler/main/assets/images/work-day-scheduler.jpg)
 
 ## Contribution
-Initial code by 
+Initial code by Xandromus
 Made by Rayce Wheat
